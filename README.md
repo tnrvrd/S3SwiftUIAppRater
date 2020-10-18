@@ -1,6 +1,6 @@
 # S3SwiftUIAppRater
 
-S3SwiftUIAppRater is designed for SwiftUI and will remind your users to make a review for your app on the App Store.
+S3SwiftUIAppRater is designed for SwiftUI App Rater and will remind your users to make a review for your app on the App Store.
 
 ## Getting Started
 
