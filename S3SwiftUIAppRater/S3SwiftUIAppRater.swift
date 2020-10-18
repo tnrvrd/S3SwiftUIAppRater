@@ -30,7 +30,9 @@ public struct S3SwiftUIAppRater {
         }
         
         if requestReview {
-            SKStoreReviewController.requestReview()
+            if let scene = UIApplication.shared.currentScene {
+                SKStoreReviewController.requestReview(in: scene)
+            }
         }
     }
     
